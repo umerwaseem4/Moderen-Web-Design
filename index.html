@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shapag Website</title>
+    <link
+      rel="stylesheet"
+      href="simplelightbox-master/dist/simple-lightbox.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="/your-path-to-fontawesome/css/fontawesome.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Shapag</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Section A -->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>Heaphone of the past</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+            quibusdam a ex saepe ducimus velit dicta labore voluptas enim ipsa?
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <img src="images/showcase.jpg" alt="" />
+      </div>
+    </section>
+    <!-- Overlay Text -->
+    <section class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner">
+          <h3>Load & Clear</h3>
+          <h2>People are Gaming on this shit</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+            nesciunt ipsum aut pariatur quas omnis consequatur libero magni quae
+            ea.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section C -->
+    <section class="section-c">
+      <div class="gallery">
+        <a href="images/grid1.jpg" class="big"
+          ><img src="images/grid1.jpg"
+        /></a>
+        <a href="images/grid2.jpg" class="big"
+          ><img src="images/grid2.jpg"
+        /></a>
+        <a href="images/grid3.jpg" class="big"
+          ><img src="images/grid3.jpg"
+        /></a>
+        <a href="images/grid4.jpg" class="big"
+          ><img src="images/grid4.jpg"
+        /></a>
+        <a href="images/grid4.jpg" class="big"
+          ><img src="images/grid4.jpg"
+        /></a>
+        <a href="images/grid1.jpg" class="big"
+          ><img src="images/grid1.jpg"
+        /></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer py-4 bg-primary">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+          <a href="http://twitter.com">
+            <i class="fas fa-twitch"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-twitch fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- javascript file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="simplelightbox-master/dist/simple-lightbox.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+      $(function () {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
